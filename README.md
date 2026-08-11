@@ -9,7 +9,7 @@
 
 Сайт готов к публикации на GitHub Pages: Settings → Pages → Deploy from a branch → `main` / `/ (root)`.
 
-После публикации сайт будет доступен по адресу: https://aaituu.github.io/electrolabaratory/
+Custom domain: **https://electrolabaratory.kz** (файл `CNAME` в корне). Резервный адрес: https://aaituu.github.io/electrolabaratory/
 
 ## Структура
 
