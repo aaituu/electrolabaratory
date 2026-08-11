@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf2fa"/>
+      <stop offset="1" stop-color="#d7e4f2"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fb2c6"/>
+      <stop offset="1" stop-color="#6d8199"/>
+    </linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a6f9f"/>
+      <stop offset="1" stop-color="#072758"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="400" fill="url(#sky)"/>
+  <rect y="330" width="700" height="70" fill="#b9c8d8"/>
+  <!-- transformer tank -->
+  <rect x="200" y="150" width="300" height="180" rx="12" fill="url(#tank)"/>
+  <!-- cooling fins -->
+  <g fill="#0d3a73">
+    <rect x="170" y="165" width="22" height="150" rx="4"/>
+    <rect x="508" y="165" width="22" height="150" rx="4"/>
+  </g>
+  <g fill="#124a8c">
+    <rect x="222" y="170" width="14" height="140" rx="3"/>
+    <rect x="248" y="170" width="14" height="140" rx="3"/>
+    <rect x="274" y="170" width="14" height="140" rx="3"/>
+    <rect x="412" y="170" width="14" height="140" rx="3"/>
+    <rect x="438" y="170" width="14" height="140" rx="3"/>
+    <rect x="464" y="170" width="14" height="140" rx="3"/>
+  </g>
+  <!-- bushings -->
+  <g>
+    <g transform="translate(260,70)">
+      <rect x="-6" y="30" width="12" height="55" fill="url(#metal)"/>
+      <ellipse cx="0" cy="42" rx="16" ry="7" fill="#8ea3b8"/>
+      <ellipse cx="0" cy="58" rx="16" ry="7" fill="#8ea3b8"/>
+      <ellipse cx="0" cy="74" rx="16" ry="7" fill="#8ea3b8"/>
+      <circle cx="0" cy="22" r="9" fill="#e31e24"/>
+    </g>
+    <g transform="translate(350,55)">
+      <rect x="-6" y="30" width="12" height="70" fill="url(#metal)"/>
+      <ellipse cx="0" cy="45" rx="16" ry="7" fill="#8ea3b8"/>
+      <ellipse cx="0" cy="63" rx="16" ry="7" fill="#8ea3b8"/>
+      <ellipse cx="0" cy="81" rx="16" ry="7" fill="#8ea3b8"/>
+      <circle cx="0" cy="22" r="9" fill="#e31e24"/>
+    </g>
+    <g transform="translate(440,70)">
+      <rect x="-6" y="30" width="12" height="55" fill="url(#metal)"/>
+      <ellipse cx="0" cy="42" rx="16" ry="7" fill="#8ea3b8"/>
+      <ellipse cx="0" cy="58" rx="16" ry="7" fill="#8ea3b8"/>
+      <ellipse cx="0" cy="74" rx="16" ry="7" fill="#8ea3b8"/>
+      <circle cx="0" cy="22" r="9" fill="#e31e24"/>
+    </g>
+  </g>
+  <!-- wires -->
+  <path d="M260 92 C 300 40, 400 40, 440 92" fill="none" stroke="#072758" stroke-width="3"/>
+  <path d="M0 60 C 120 90, 200 60, 260 92" fill="none" stroke="#072758" stroke-width="3"/>
+  <path d="M440 92 C 520 60, 600 90, 700 55" fill="none" stroke="#072758" stroke-width="3"/>
+  <!-- base -->
+  <rect x="185" y="330" width="330" height="16" rx="4" fill="#55677c"/>
+  <rect x="215" y="346" width="40" height="18" fill="#55677c"/>
+  <rect x="445" y="346" width="40" height="18" fill="#55677c"/>
+  <!-- warning plate -->
+  <g transform="translate(350,255)">
+    <path d="M0 -26 L30 24 L-30 24 Z" fill="#f4bb0f" stroke="#072758" stroke-width="3"/>
+    <path d="M4 -12 L-8 6 L-1 6 L-5 20 L9 2 L2 2 L7 -12 Z" fill="#072758"/>
+  </g>
+</svg>

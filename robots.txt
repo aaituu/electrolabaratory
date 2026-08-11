@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aaituu.github.io/electrolabaratory/sitemap.xml
